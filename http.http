@@ -1,0 +1,21 @@
+###
+GET http://localhost:4000/todo
+
+{}
+
+###
+POST http://localhost:4000/add
+
+{
+    "title": "Estudar Flutter 29898999"
+}
+
+###
+PUT http://localhost:4000/todo/123
+
+{}
+
+###
+DELETE http://localhost:4000/todo/123
+
+{}
